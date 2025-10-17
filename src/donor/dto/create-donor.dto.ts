@@ -11,7 +11,6 @@ export class CreateDonorDto {
   @IsDateString() //"1999-05-21"
   dob?: string;
 
-  @IsString()
   userId: string;
 
   @IsEmail()

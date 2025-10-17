@@ -19,7 +19,7 @@ model Donor{
   fristName   String
   lastName    String?
   dob         DateTime?
-  userId      String @unique
+  userId      String? @unique 
   email       String @unique
   cell        String @unique
   bolodGroup  String
